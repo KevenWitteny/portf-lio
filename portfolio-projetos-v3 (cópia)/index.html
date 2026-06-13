@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keven Witteny | Projetos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="bg-grid"></div>
+  <div class="page-glow"></div>
+
+  <header class="topbar">
+    <a class="brand" href="inicio.html">
+      <span class="logo">K</span>
+
+      <span>
+        <strong>KEVEN WITTENY</strong>
+        <small>DEVELOPER</small>
+      </span>
+    </a>
+
+    <nav>
+      <a href="inicio.html">
+        <i class="fa-solid fa-house"></i>
+        INÍCIO
+      </a>
+
+      <a href="sobre.html">
+        <i class="fa-regular fa-user"></i>
+        SOBRE
+      </a>
+
+      <a class="active" href="index.html">
+        <i class="fa-solid fa-briefcase"></i>
+        PROJETOS
+      </a>
+
+      <a href="habilidades.html">
+        <i class="fa-solid fa-code"></i>
+        HABILIDADES
+      </a>
+
+      <a href="contato.html">
+        <i class="fa-regular fa-envelope"></i>
+        CONTATO
+      </a>
+    </nav>
+
+    <button class="contact" id="openContact">
+      ENTRAR EM CONTATO
+      <i class="fa-regular fa-paper-plane"></i>
+    </button>
+  </header>
+
+  <main class="layout" id="projetos">
+    <aside class="sidebar">
+      <section class="side-card">
+        <h3>
+          <i class="fa-solid fa-layer-group"></i>
+          PROJETOS
+        </h3>
+
+        <button class="project active" data-project="evelly">
+          <span class="avatar img">
+            <img src="assets/evellyperfil.png" alt="Evelly">
+          </span>
+
+          <span>
+            <b>Evelly</b>
+            <small>Assistente Virtual IA</small>
+          </span>
+        </button>
+
+        <button class="project" data-project="bot">
+          <span class="avatar blue">
+            <i class="fa-solid fa-robot"></i>
+          </span>
+
+          <span>
+            <b>Bot</b>
+            <small>Automação de E-mails</small>
+          </span>
+        </button>
+
+        <button class="project" data-project="xgon">
+          <span class="avatar green">
+            <i class="fa-solid fa-building"></i>
+          </span>
+
+          <span>
+            <b>XGON</b>
+            <small>Gestão de Condomínios</small>
+          </span>
+        </button>
+
+        <button class="project" data-project="triarca">
+          <span class="avatar gold">
+            <i class="fa-regular fa-folder-open"></i>
+          </span>
+
+          <span>
+            <b>Triarca Conecta</b>
+            <small>Gestão Documental</small>
+          </span>
+        </button>
+
+        <button class="project" data-project="barber">
+          <span class="avatar red">
+            <i class="fa-solid fa-scissors"></i>
+          </span>
+
+          <span>
+            <b>Barber System</b>
+            <small>Gestão para Barbearias</small>
+          </span>
+        </button>
+      </section>
+
+      <section class="side-card repo">
+        <h3>
+          <i class="fa-solid fa-arrow-trend-up"></i>
+          VER REPOSITÓRIOS
+        </h3>
+
+        <a href="https://github.com/SEUGITHUB" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          GitHub
+        </a>
+      </section>
+    </aside>
+
+    <section class="center">
+      <section class="hero card">
+        <div class="hero-bg"></div>
+
+        <div class="hero-content">
+          <span class="pill">PROJETO EM DESTAQUE</span>
+
+          <h1 id="projectTitle">EVELLY</h1>
+
+          <h2 id="projectSubtitle">
+            ASSISTENTE VIRTUAL IA
+          </h2>
+
+          <p id="projectIntro"></p>
+
+          <div class="actions">
+            <a class="btn primary" href="#galeria">
+              <i class="fa-solid fa-play"></i>
+              VER DEMONSTRAÇÃO
+            </a>
+
+            <a class="btn dark" id="githubBtn" href="#" target="_blank">
+              VER NO GITHUB
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="features card">
+        <h3>
+          <i class="fa-regular fa-star"></i>
+          FUNCIONALIDADES PRINCIPAIS
+        </h3>
+
+        <div class="feature-grid" id="features"></div>
+      </section>
+
+      <section class="card gallery" id="galeria">
+        <div class="section-title">
+          <h3>
+            <i class="fa-regular fa-images"></i>
+            GALERIA
+          </h3>
+        </div>
+
+        <div class="carousel">
+          <button class="carousel-btn prev" id="prevSlide">‹</button>
+
+          <div class="carousel-track" id="gallery"></div>
+
+          <button class="carousel-btn next" id="nextSlide">›</button>
+        </div>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+      </section>
+
+      <section class="cta card">
+        <span class="rocket">
+          <i class="fa-solid fa-rocket"></i>
+        </span>
+
+        <div>
+          <h3>Gostou do projeto?</h3>
+          <p>Vamos conversar sobre ideias e novas tecnologias!</p>
+        </div>
+
+        <button class="btn outline" id="openContact2">
+          ENTRAR EM CONTATO
+          <i class="fa-regular fa-paper-plane"></i>
+        </button>
+      </section>
+    </section>
+
+    <aside class="rightcol">
+      <section class="card about">
+        <h3>
+          <i class="fa-regular fa-circle-question"></i>
+          SOBRE O PROJETO
+        </h3>
+
+        <p id="aboutText"></p>
+
+        <div class="mini-grid" id="miniCards"></div>
+      </section>
+
+      <section class="card tech">
+        <h3>
+          <i class="fa-solid fa-code"></i>
+          TECNOLOGIAS UTILIZADAS
+        </h3>
+
+        <div class="tech-grid" id="techs"></div>
+      </section>
+
+      <section class="card status">
+        <h3>
+          <i class="fa-regular fa-flag"></i>
+          STATUS DO PROJETO
+        </h3>
+
+        <div class="status-box">
+          <div>
+            <b id="statusLabel"></b>
+            <p id="statusText"></p>
+          </div>
+
+          <div class="progress">
+            <span id="progressNum"></span>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <span class="done"></span>
+          <span class="done"></span>
+          <span class="current"></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="steps">
+          <small>IDEIA</small>
+          <small>PLANEJAMENTO</small>
+          <small class="active">DESENVOLVIMENTO</small>
+          <small>TESTES</small>
+          <small>LANÇAMENTO</small>
+        </div>
+      </section>
+
+      <section class="card learn">
+        <h3>
+          <i class="fa-regular fa-gem"></i>
+          O QUE EU APRENDI
+        </h3>
+
+        <ul id="learnList"></ul>
+      </section>
+
+      <footer>
+        © 2026 Keven Witteny. Todos os direitos reservados.
+      </footer>
+    </aside>
+  </main>
+
+  <div class="contact-modal" id="contactModal">
+    <div class="contact-box">
+      <button class="close-contact" id="closeContact">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <h2>Vamos conversar?</h2>
+
+      <p>
+        Gostou dos meus projetos? Escolha uma das opções abaixo.
+      </p>
+
+      <div class="contact-links">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kevenmoreira86@gmail.com" target="_blank">
+          <i class="fa-solid fa-envelope"></i>
+          E-mail
+        </a>
+
+        <a href="https://wa.me/5562999999999" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+          WhatsApp
+        </a>
+
+        <a href="https://github.com/SEUGITHUB" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          GitHub
+        </a>
+
+        <a href="https://linkedin.com/in/keven-witteny-10389a251/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          LinkedIn
+        </a>
+
+        <a href="https://www.instagram.com/kevenwitteny/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+          Instagram
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

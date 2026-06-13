@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Keven Witteny</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="page-glow"></div>
+
+  <header class="topbar">
+    <a class="brand" href="inicio.html">
+      <span class="brand-logo">K</span>
+      <span>
+        <strong>KEVEN WITTENY</strong>
+        <small>DEVELOPER</small>
+      </span>
+    </a>
+
+    <nav>
+      <a href="inicio.html"><i class="fa-solid fa-house"></i> INÍCIO</a>
+      <a href="sobre.html"><i class="fa-regular fa-user"></i> SOBRE</a>
+      <a href="index.html"><i class="fa-solid fa-briefcase"></i> PROJETOS</a>
+      <a href="habilidades.html"><i class="fa-solid fa-code"></i> HABILIDADES</a>
+      <a class="active" href="contato.html"><i class="fa-regular fa-envelope"></i> CONTATO</a>
+    </nav>
+
+    <button class="contact-btn" id="openContact">
+      ENTRAR EM CONTATO <i class="fa-regular fa-paper-plane"></i>
+    </button>
+  </header>
+
+  <main class="contact-page">
+    <section class="contact-hero">
+      <div class="contact-text">
+        <span class="section-label"><i class="fa-regular fa-comments"></i> CONTATO /</span>
+
+        <h1>
+          Vamos construir<br>
+          algo incrível<br>
+          <span>juntos.</span>
+        </h1>
+
+        <p>
+          Estou disponível para projetos, parcerias e novas oportunidades.
+          Vamos transformar ideias em <strong>realidade.</strong>
+        </p>
+
+        <div class="trust-list">
+          <article>
+            <span><i class="fa-solid fa-bolt"></i></span>
+            <div>
+              <strong>RESPOSTA RÁPIDA</strong>
+              <small>Em até 24 horas</small>
+            </div>
+          </article>
+
+          <article>
+            <span><i class="fa-solid fa-shield-halved"></i></span>
+            <div>
+              <strong>100% SEGURO</strong>
+              <small>Seus dados protegidos</small>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="contact-orb">
+        <div class="orb-axis axis-v"></div>
+        <div class="orb-axis axis-h"></div>
+
+        <div class="orb-ring ring-one"></div>
+        <div class="orb-ring ring-two"></div>
+        <div class="orb-ring ring-three"></div>
+        <div class="orb-scan"></div>
+
+        <div class="orb-icon top"><i class="fa-regular fa-paper-plane"></i></div>
+        <div class="orb-icon left"><i class="fa-regular fa-envelope"></i></div>
+        <div class="orb-icon right"><i class="fa-regular fa-user"></i></div>
+        <div class="orb-icon bottom"><i class="fa-solid fa-code"></i></div>
+
+        <div class="orb-center">
+          <i class="fa-regular fa-comment-dots"></i>
+          <strong><span></span> ONLINE NOW</strong>
+          <small>Resposta média:<br><b>&lt; 24 horas</b></small>
+        </div>
+
+        <div class="hologram-base"></div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-border"></div>
+
+        <div class="form-header">
+          <h2>SISTEMA DE CONTATO</h2>
+          <div><i></i><i></i><i></i></div>
+        </div>
+
+        <label>
+          <i class="fa-regular fa-user"></i>
+          <input type="text" placeholder="Seu nome">
+        </label>
+
+        <label>
+          <i class="fa-regular fa-envelope"></i>
+          <input type="email" placeholder="Seu e-mail">
+        </label>
+
+        <label>
+          <i class="fa-solid fa-list-check"></i>
+          <select>
+            <option>Assunto do contato</option>
+            <option>Projeto Web</option>
+            <option>Aplicativo Mobile</option>
+            <option>Inteligência Artificial</option>
+            <option>Parceria</option>
+            <option>Oportunidade</option>
+          </select>
+        </label>
+
+        <label class="message-field">
+          <i class="fa-regular fa-message"></i>
+          <textarea maxlength="1000" placeholder="Sua mensagem..."></textarea>
+          <span class="counter">0 / 1000</span>
+        </label>
+
+        <button type="submit">
+          ENVIAR MENSAGEM <i class="fa-regular fa-paper-plane"></i>
+        </button>
+
+        <p class="safe"><i class="fa-solid fa-lock"></i> Seus dados estão protegidos e seguros</p>
+      </form>
+    </section>
+
+    <section class="contact-cards">
+      <a class="contact-card whatsapp" href="https://wa.me/5562999999999" target="_blank">
+        <span class="card-icon"><i class="fa-brands fa-whatsapp"></i></span>
+        <div>
+          <strong>WHATSAPP</strong>
+          <small>Resposta rápida e direta</small>
+        </div>
+        <b>Conversar agora <i class="fa-solid fa-chevron-right"></i></b>
+      </a>
+
+      <a class="contact-card email" href="https://mail.google.com/mail/?view=cm&fs=1&to=kevenmoreira86@gmail.com" target="_blank">
+        <span class="card-icon"><i class="fa-regular fa-envelope"></i></span>
+        <div>
+          <strong>E-MAIL</strong>
+          <small>Contato profissional e parcerias</small>
+        </div>
+        <b>Enviar e-mail <i class="fa-solid fa-chevron-right"></i></b>
+      </a>
+
+      <a class="contact-card github" href="https://github.com/SEUGITHUB" target="_blank">
+        <span class="card-icon"><i class="fa-brands fa-github"></i></span>
+        <div>
+          <strong>GITHUB</strong>
+          <small>Projetos, códigos e contribuições</small>
+        </div>
+        <b>Ver projetos <i class="fa-solid fa-chevron-right"></i></b>
+      </a>
+
+      <a class="contact-card linkedin" href="https://linkedin.com/in/SEULINKEDIN" target="_blank">
+        <span class="card-icon"><i class="fa-brands fa-linkedin"></i></span>
+        <div>
+          <strong>LINKEDIN</strong>
+          <small>Experiência e rede profissional</small>
+        </div>
+        <b>Ver perfil <i class="fa-solid fa-chevron-right"></i></b>
+      </a>
+    </section>
+
+    <section class="bottom-info">
+      <article>
+        <span><i class="fa-solid fa-rocket"></i></span>
+        <div>
+          <strong>5+</strong>
+          <small>Projetos Entregues</small>
+        </div>
+      </article>
+
+      <article>
+        <span><i class="fa-solid fa-users"></i></span>
+        <div>
+          <strong>170K+</strong>
+          <small>Alcance Social</small>
+        </div>
+      </article>
+
+      <article>
+        <span><i class="fa-solid fa-code"></i></span>
+        <div>
+          <strong>8+</strong>
+          <small>Tecnologias Dominadas</small>
+        </div>
+      </article>
+
+      <article>
+        <span><i class="fa-regular fa-star"></i></span>
+        <div>
+          <strong>100%</strong>
+          <small>Comprometimento</small>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check"></i>
+    Mensagem preparada! Abra seu e-mail para enviar.
+  </div>
+
+  <script src="contato.js"></script>
+</body>
+</html>
