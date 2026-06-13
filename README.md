@@ -1,30 +1,32 @@
-#Keven Witteny Portfolio
+# 🚀 Keven Witteny Portfolio
 
 Portfólio profissional desenvolvido para apresentar meus projetos, tecnologias e experiências como desenvolvedor de software.
 
-##Sobre
+## 👨‍💻 Sobre
 
 Formado em Análise e Desenvolvimento de Sistemas (ADS), com foco em desenvolvimento web, aplicações mobile, automações e soluções com Inteligência Artificial.
 
-##Tecnologias
-Python
-Flutter
-Firebase
-JavaScript
-HTML5
-CSS3
-MySQL
-SQLite
-Git & GitHub
+## 🛠 Tecnologias
 
-##Recursos do Portfólio
-Design responsivo
-Interface moderna
-Modal de contato
-Galeria de projetos
-Navegação dinâmica
-Apresentação profissional dos projetos
+* Python
+* Flutter
+* Firebase
+* JavaScript
+* HTML5
+* CSS3
+* MySQL
+* SQLite
+* Git & GitHub
 
-##Autor 
+## 📸 Recursos do Portfólio
 
-Keven Witteny
+* Design responsivo
+* Interface moderna
+* Modal de contato
+* Galeria de projetos
+* Navegação dinâmica
+* Apresentação profissional dos projetos
+
+---
+
+Desenvolvido por Keven Witteny.
